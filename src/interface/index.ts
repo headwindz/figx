@@ -29,3 +29,14 @@ export enum ColorFormat {
   ARRAY = 'array',
   Object = 'object',
 }
+
+export enum ColorModel {
+  HSL = 'hsl',
+  RGB = 'rgb',
+  HEX = 'hex',
+}
+
+export type IColor =
+  | string
+  | { r: number; g: number; b: number }
+  | { h: number; s: number; l: number };

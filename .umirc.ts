@@ -29,7 +29,7 @@ export default defineConfig({
       },
       {
         title: 'Color',
-        children: ['hexToRgb'],
+        children: ['toRgb', 'toHsl'],
       },
       {
         title: 'Paint',
