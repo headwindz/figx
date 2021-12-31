@@ -36,7 +36,7 @@ export default defineConfig({
         children: ['toSolidPaint'],
       },
       {
-        title: 'Other',
+        title: 'Others',
         children: ['getRandomId'],
       },
     ],
