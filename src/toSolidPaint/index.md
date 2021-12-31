@@ -12,7 +12,7 @@ Turn color into figma solid paint
 ```tsx
 import { toSolidPaint } from 'figx';
 // { type: 'SOLID',  color: { r: 0, g: 128 / 255, b: 128 / 255 }, opacity: 1 }
-toSolidPaint('008080');
+toSolidPaint('#008080');
 // { type: 'SOLID',  color: { r: 0, g: 128 / 255, b: 128 / 255 }, opacity: 0.1 }
 toSolidPaint('rgb(0, 128, 128, 0.1)');
 ```
@@ -27,7 +27,7 @@ const paint = toSolidPaint(color);
 
 | Property | Description     | Type   | Default |
 | -------- | --------------- | ------ | ------- |
-| color    | color in string | string | -       |
+| color    | Color in string | string | -       |
 
 ### Result
 

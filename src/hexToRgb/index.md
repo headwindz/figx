@@ -11,6 +11,7 @@ Turn color in hex format into rgb format.
 
 ```tsx
 import { hexToRgb, ColorFormat } from 'figx';
+const hex = '#008080';
 hexToRgb(hex); //'rgb(0, 128, 128)';
 hexToRgb(hex, ColorFormat.ARRAY; // [0, 128, 128]
 hexToRgb(hex, ColorFormat.Object); // { r: 0, g: 128, b: 128 }
@@ -27,7 +28,7 @@ const rgbValue = hexToRgb(hexValue, colorFormat);
 | Property    | Description            | Type        | Default            |
 | ----------- | ---------------------- | ----------- | ------------------ |
 | hexValue    | Hex value of the color | string      | -                  |
-| colorFormat | color format           | ColorFormat | ColorFormat.STRING |
+| colorFormat | Color format           | ColorFormat | ColorFormat.STRING |
 
 ### Result
 

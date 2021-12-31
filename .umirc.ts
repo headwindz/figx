@@ -35,6 +35,10 @@ export default defineConfig({
         title: 'Paint',
         children: ['toSolidPaint'],
       },
+      {
+        title: 'Other',
+        children: ['getRandomId'],
+      },
     ],
   },
   theme: {
