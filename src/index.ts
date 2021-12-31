@@ -1,5 +1,5 @@
 // Interfaces
-export * from './interface';
+export { NodeTypeEnum, ColorFormat, ColorModel, IColor } from './interface';
 
 // Color
 export { default as toRgb } from './toRgb';
