@@ -23,9 +23,9 @@ const bool = isTextNode(node);
 
 ### Params
 
-| Property | Description            | Type              | Default |
-| -------- | ---------------------- | ----------------- | ------- |
-| node     | The node to be checked | Partial<BaseNode> | -       |
+| Property | Description            | Type                | Default |
+| -------- | ---------------------- | ------------------- | ------- |
+| node     | The node to be checked | `Partial<BaseNode>` | -       |
 
 ### Result
 
