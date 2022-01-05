@@ -3,22 +3,23 @@ nav:
   path: /utilities
 ---
 
-# isFrameNode
+# isFillableNode
 
-Check whether a node is a frame node.
+Check whether a node is fillable (i.e. can be filled with `Paint`).
 
 ## Example
 
 ```tsx
-import { isFrameNode } from 'figx';
+import { isFillableNode } from 'figx';
 const frameNode = figma.createFrame();
-isFrameNode(frameNode); // =>true
+isFillableNode(frameNode); // => true
+isFillableNode(figma.root); // => false
 ```
 
 ## API
 
 ```ts
-const bool = isFrameNode(node);
+const bool = isFillableNode(node);
 ```
 
 ### Params
@@ -29,6 +30,6 @@ const bool = isFrameNode(node);
 
 ### Result
 
-| Property | Description                      | Type      |
-| -------- | -------------------------------- | --------- |
-| bool     | Whether the node is a frame node | `boolean` |
+| Property | Description                  | Type      |
+| -------- | ---------------------------- | --------- |
+| bool     | Whether the node is fillable | `boolean` |

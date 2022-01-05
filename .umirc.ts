@@ -25,7 +25,7 @@ export default defineConfig({
     '/utilities': [
       {
         title: 'Node',
-        children: ['isTextNode', 'isFrameNode', 'isPageNode', 'isVisible'],
+        children: ['isTextNode', 'isFrameNode', 'isPageNode', 'isVisible', 'isFillableNode'],
       },
       {
         title: 'Color',

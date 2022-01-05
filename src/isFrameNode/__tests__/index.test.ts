@@ -1,16 +1,34 @@
 import { createFigma } from 'figma-api-stub';
-import isFrameNode from '../index';
+import isFillableNode from '../index';
 
 describe('isFrameNode', () => {
   let figma: PluginAPI;
   beforeAll(() => {
     figma = createFigma({});
   });
-  it('should work for frame node', () => {
-    expect(isFrameNode(figma.createFrame())).toBeTruthy();
+  it('frame node should be fillable', () => {
+    expect(isFillableNode(figma.createFrame())).toBeTruthy();
   });
 
-  it('should work for non-frame node', () => {
-    expect(isFrameNode(figma.createText())).toBeFalsy();
+  it('text node should be fillable', () => {
+    expect(isFillableNode(figma.createText())).toBeTruthy();
+  });
+
+  it('document node should be NOT fillable', () => {
+    expect(isFillableNode(figma.root)).toBeFalsy();
+  });
+
+  it('slice node should be NOT fillable', () => {
+    expect(isFillableNode(figma.createSlice())).toBeFalsy();
+  });
+
+  it('page node should be NOT fillable', () => {
+    expect(isFillableNode(figma.createPage())).toBeFalsy();
+  });
+
+  it('instance node should be NOT fillable', () => {
+    const component = figma.createComponent();
+    const instance = component.createInstance();
+    expect(isFillableNode(instance)).toBeFalsy();
   });
 });
