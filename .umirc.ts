@@ -36,6 +36,10 @@ export default defineConfig({
         children: ['toSolidPaint'],
       },
       {
+        title: 'Storage',
+        children: ['getPluginData'],
+      },
+      {
         title: 'Others',
         children: ['getRandomId'],
       },
