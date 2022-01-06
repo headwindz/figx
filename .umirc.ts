@@ -37,7 +37,7 @@ export default defineConfig({
       },
       {
         title: 'Storage',
-        children: ['getPluginData'],
+        children: ['getPluginData', 'setPluginData'],
       },
       {
         title: 'Others',

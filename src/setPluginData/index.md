@@ -3,23 +3,23 @@ nav:
   path: /utilities
 ---
 
-# getPluginData
+# setPluginData
 
-Retrieves custom information that was stored on the node or style using `setPluginData`. Wraps around native `setPluginData` with safe check.
+Lets you store custom information on any node or style, private to your plugin. Wraps around [setPluginData](https://www.figma.com/plugin-docs/api/properties/nodes-setplugindata/) with safe check.
 
 ## Example
 
 ```tsx
-import { getPluginData, setPluginData } from 'figx';
+import { setPluginData, getPluginData } from 'figx';
 const frame = figma.createFrame();
-setPluginData('count', '1');
+setPluginData(frame, 'count', '1');
 getPluginData(frame, 'count'); // '1'
 ```
 
 ## API
 
 ```ts
-const value = getPluginData(node, key);
+setPluginData(node, key, value);
 ```
 
 ### Params
@@ -28,9 +28,8 @@ const value = getPluginData(node, key);
 | -------- | --------------------------------- | ------------------- | ------- |
 | node     | The node to hold the storage data | `Partial<BaseNode>` | -       |
 | key      | Storage key                       | `string`            | -       |
+| value    | Storage value                     | `string`            | -       |
 
 ### Result
 
-| Property | Description  | Type     |
-| -------- | ------------ | -------- |
-| value    | Storage data | `string` |
+`void`
