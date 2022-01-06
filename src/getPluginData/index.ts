@@ -1,4 +1,4 @@
-export default function getPluginData(key: string, node: BaseNode): string | void {
+export default function getPluginData(node: BaseNode, key: string): string | void {
   if (!node || node.removed || !node.getPluginData) {
     return;
   }

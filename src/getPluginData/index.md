@@ -11,21 +11,21 @@ nav:
 import { getPluginData } from 'figx';
 const frame = figma.createFrame();
 frame.setPluginData('count', '1');
-getPluginData('count', frame); // '1'
+getPluginData(frame, 'count'); // '1'
 ```
 
 ## API
 
 ```ts
-const value = getPluginData(key, node);
+const value = getPluginData(node, key);
 ```
 
 ### Params
 
 | Property | Description                       | Type                | Default |
 | -------- | --------------------------------- | ------------------- | ------- |
-| key      | Storage key                       | `string`            | -       |
 | node     | The node to hold the storage data | `Partial<BaseNode>` | -       |
+| key      | Storage key                       | `string`            | -       |
 
 ### Result
 
