@@ -36,6 +36,7 @@
     "color": "3.2.1"
   },
   "devDependencies": {
+    "@arco-design/web-react": "^2.28.0",
     "@figma/plugin-typings": "^1.40.0",
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^12.1.2",
@@ -43,12 +44,15 @@
     "@types/jest": "^27.0.3",
     "@umijs/fabric": "^2.8.1",
     "@umijs/test": "^3.0.5",
+    "babel-plugin-import": "^1.13.3",
     "dumi": "^1.1.0",
     "father-build": "^1.17.2",
     "figma-api-stub": "^0.0.48",
     "gh-pages": "^3.0.0",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "yorkie": "^2.0.0"
   }
 }

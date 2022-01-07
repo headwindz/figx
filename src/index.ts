@@ -14,3 +14,4 @@ export { default as toSolidPaint } from './toSolidPaint';
 
 // Others
 export { default as getRandomId } from './getRandomId';
+export { default as copyToClipboard } from './copyToClipboard';

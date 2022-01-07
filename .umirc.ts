@@ -41,11 +41,23 @@ export default defineConfig({
       },
       {
         title: 'Others',
-        children: ['getRandomId'],
+        children: ['getRandomId', 'copyToClipboard'],
       },
     ],
   },
   theme: {
     '@c-primary': '#e78c56',
   },
+  extraBabelPlugins: [
+    [
+      'import',
+      {
+        libraryName: '@arco-design/web-react',
+        libraryDirectory: 'es',
+        camel2DashComponentName: false,
+        style: true, // 样式按需加载
+      },
+      '@arco-design/web-react',
+    ],
+  ],
 });
