@@ -41,7 +41,7 @@ export default defineConfig({
       },
       {
         title: 'Others',
-        children: ['getRandomId', 'copyToClipboard'],
+        children: ['getRandomId', 'copyToClipboard', 'copyToClipboardAsync'],
       },
     ],
   },
