@@ -6,13 +6,14 @@
 
 A comprehensive and reliable figma utilities library
 
-[![npm-version-img]][npm-link] [![npm-downloads-img]][npm-link] [![license-img]][license-link]
+[![npm-version-img]][npm-link] [![npm-downloads-img]][npm-link] [![license-img]][license-link] [![bundle-size-img]](https://bundlephobia.com/result?p=figx)
 
 [npm-link]: https://www.npmjs.com/package/figx
 [npm-version-img]: https://img.shields.io/npm/v/figx.svg?style=flat
 [npm-downloads-img]: https://img.shields.io/npm/dm/figx.svg?style=flat
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-link]: https://github.com/n0ruSh/figx/blob/main/LICENSE
+[bundle-size-img]: https://img.shields.io/bundlephobia/minzip/figx?cacheSeconds=1800
 
 </div>
 
