@@ -9,6 +9,7 @@
     "strict": true,
     "skipLibCheck": true,
     "declaration": true,
+    "allowSyntheticDefaultImports": true,
     "types": ["@figma/plugin-typings", "jest"]
   }
 }
