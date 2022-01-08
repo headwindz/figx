@@ -13,7 +13,7 @@ Turn color into hsl format.
 import { toHsl, ColorFormat } from 'figx';
 toHsl('#FF0000'); // => 'hsl(0, 100%, 50%)'
 toHsl('rgb(0,0,255)', ColorFormat.ARRAY; // [0, 100, 50]
-toHsl({r: 0, g: 0, b: 255}, ColorFormat.ObJECT); // { h: 0, s: 100, l: 50 }
+toHsl({r: 0, g: 0, b: 255}, ColorFormat.OBJECT); // { h: 0, s: 100, l: 50 }
 ```
 
 ## API

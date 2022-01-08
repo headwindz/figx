@@ -31,7 +31,7 @@ $ yarn add figx
 import { toRgb, ColorFormat } from 'figx';
 toRgb('#FF0000'); // => 'rgb(255, 0, 0)';
 toRgb({ r: 255, g: 0, b: 0 }, ColorFormat.ARRAY); // => [255, 0, 0]
-toRgb('hsl(0, 100%, 50%)', ColorFormat.Object); // => { r: 255, g: 0, b: 0 }
+toRgb('hsl(0, 100%, 50%)', ColorFormat.OBJECT); // => { r: 255, g: 0, b: 0 }
 ```
 
 ## 💻 Demos
