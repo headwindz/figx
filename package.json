@@ -1,6 +1,13 @@
 {
   "name": "figx",
-  "version": "0.0.3",
+  "version": "0.0.4",
+  "description": "A comprehensive and reliable figma utilities library",
+  "keywords": [
+    "utilities",
+    "figma",
+    "figma plugin",
+    "figma api"
+  ],
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -16,6 +23,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "module": "es/index.js",
+  "main": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
