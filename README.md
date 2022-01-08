@@ -43,12 +43,13 @@ toRgb({ r: 255, g: 0, b: 0 }, ColorFormat.ARRAY); // => [255, 0, 0]
 toRgb('hsl(0, 100%, 50%)', ColorFormat.Object); // => { r: 255, g: 0, b: 0 }
 ```
 
-## 💻 Codesandbox demo
+## 💻 Demos
 
-[![demo][sandbox-img]][sandbox-link]
+- [Sandbox][sandbox-link]
+- [Runkit][runkit-link]
 
-[sandbox-img]: https://codesandbox.io/static/img/play-codesandbox.svg
 [sandbox-link]: https://codesandbox.io/s/demo-316l9?file=/src/index.js
+[runkit-link]: https://runkit.com/n0rush/61d919edcdc69d0008742627
 
 ## 🤝 Contributing
 

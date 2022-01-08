@@ -12,8 +12,9 @@ export default defineConfig({
     passivePreview: true,
   },
   navs: [
+    { title: 'Guide', path: '/guide' },
     {
-      title: 'utilities',
+      title: 'Utilities',
       path: '/utilities',
     },
     {

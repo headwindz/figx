@@ -1,23 +1,53 @@
 ---
+title: figx - Figma Utilities Library
 hero:
   title: figx
-  desc: figx site example
+  desc: A comprehensive and reliable figma utilities library
   actions:
+    - text: Guide
+      link: /guide
     - text: Getting Started
       link: /utilities
-features:
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
-    title: Feature 1
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d60657df-0822-4631-9d7c-e7a869c2f21c/k79dmz3q_w126_h126.png
-    title: Feature 2
-    desc: Balabala
-  - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
-    title: Feature 3
-    desc: Balabala
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+footer: Open-source MIT Licensed | Copyright © 2020-present n0ruSh <br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello figx!
+## ✨ Features
 
-Figx is a library of utility functions for figma.
+- A comprehensive collection of utilities
+- Easy to learn and use with clear documentation
+- Written in TypeScript with native type support
+
+## 📦 Install
+
+```bash
+$ npm install figx --save
+# or
+$ yarn add figx
+```
+
+## 🔨 Usage
+
+```ts
+import { toRgb, ColorFormat } from 'figx';
+toRgb('#FF0000'); // => 'rgb(255, 0, 0)';
+toRgb({ r: 255, g: 0, b: 0 }, ColorFormat.ARRAY); // => [255, 0, 0]
+toRgb('hsl(0, 100%, 50%)', ColorFormat.Object); // => { r: 255, g: 0, b: 0 }
+```
+
+## 💻 Demos
+
+- [Sandbox][sandbox-link]
+- [Runkit][runkit-link]
+
+[sandbox-link]: https://codesandbox.io/s/demo-316l9?file=/src/index.js
+[runkit-link]: https://runkit.com/n0rush/61d919edcdc69d0008742627
+
+## 🤝 Contributing
+
+```bash
+$ git clone git@github.com:n0ruSh/figx.git
+$ yarn
+$ yarn start
+```
+
+Open your browser and visit http://127.0.0.1:8000
