@@ -14,6 +14,7 @@ export { default as toHsl } from './toHsl';
 
 // Paint
 export { default as toSolidPaint } from './toSolidPaint';
+export { default as solidPaintToWebRgb } from './solidPaintToWebRgb';
 
 // Storage
 export { default as getPluginData } from './getPluginData';

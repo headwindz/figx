@@ -27,7 +27,7 @@ export enum NodeTypeEnum {
 export enum ColorFormat {
   STRING = 'string',
   ARRAY = 'array',
-  Object = 'object',
+  OBJECT = 'object',
 }
 
 export enum ColorModel {
@@ -38,5 +38,5 @@ export enum ColorModel {
 
 export type IColor =
   | string
-  | { r: number; g: number; b: number }
+  | { r: number; g: number; b: number; alpha?: number }
   | { h: number; s: number; l: number };

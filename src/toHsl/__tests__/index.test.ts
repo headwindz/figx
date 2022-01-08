@@ -16,12 +16,12 @@ describe('toHsl', () => {
   });
 
   it('should work for rgb object', () => {
-    expect(toHsl(hex, ColorFormat.Object)).toEqual({
+    expect(toHsl(hex, ColorFormat.OBJECT)).toEqual({
       h: 0,
       s: 100,
       l: 50,
     });
-    expect(toHsl(rgb, ColorFormat.Object)).toEqual({
+    expect(toHsl(rgb, ColorFormat.OBJECT)).toEqual({
       h: 0,
       s: 100,
       l: 50,

@@ -5,7 +5,7 @@ const MAP: {
 } = {
   [ColorFormat.STRING]: 'string',
   [ColorFormat.ARRAY]: 'array',
-  [ColorFormat.Object]: 'object',
+  [ColorFormat.OBJECT]: 'object',
 };
 
 export default function getColorMethod(colorFormat: ColorFormat) {
