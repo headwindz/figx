@@ -5,7 +5,9 @@ nav:
 
 # toSolidPaint
 
-Turn color into figma solid paint
+Turn color into figma [SolidPaint][solid-paint-link]
+
+[solid-paint-link]: https://www.figma.com/plugin-docs/api/Paint/#solidpaint
 
 ## Example
 
