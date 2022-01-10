@@ -5594,10 +5594,10 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "2.1.1"
 
-figma-api-stub@^0.0.48:
-  version "0.0.48"
-  resolved "https://registry.npmmirror.com/figma-api-stub/download/figma-api-stub-0.0.48.tgz#6d695cb7b205e326401a97fa1373816b0db3868c"
-  integrity sha1-bWlct7IF4yZAGpf6E3OBaw2zhow=
+figma-api-stub@^0.0.49:
+  version "0.0.49"
+  resolved "http://bnpm.byted.org/figma-api-stub/-/figma-api-stub-0.0.49.tgz#de7d56f33cf85f34cebeadfa4d53c6a852c54692"
+  integrity sha512-4EA4VPaa3gB6Wzcut/VfSzMIJJ65JyRKDSEUdGk/JGHicv8dNawvriOnb9hE0COC2HPGGAvwWa4/D0wMj81NTg==
   dependencies:
     clone-deep "^4.0.1"
     nanoid "^3.1.20"

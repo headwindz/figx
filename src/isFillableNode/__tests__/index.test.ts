@@ -6,21 +6,17 @@ describe('isFrameNode', () => {
   beforeAll(() => {
     figma = createFigma({});
   });
-  // it('frame node should be fillable', () => {
-  //   expect(isFillableNode(figma.createFrame())).toBeTruthy();
-  // });
+  it('frame node should be fillable', () => {
+    expect(isFillableNode(figma.createFrame())).toBeTruthy();
+  });
 
-  // it('text node should be fillable', () => {
-  //   expect(isFillableNode(figma.createText())).toBeTruthy();
-  // });
+  it('text node should be fillable', () => {
+    expect(isFillableNode(figma.createText())).toBeTruthy();
+  });
 
   it('document node should be NOT fillable', () => {
     expect(isFillableNode(figma.root)).toBeFalsy();
   });
-
-  // it('slice node should be NOT fillable', () => {
-  //   expect(isFillableNode(figma.createSlice())).toBeFalsy();
-  // });
 
   it('page node should be NOT fillable', () => {
     expect(isFillableNode(figma.createPage())).toBeFalsy();
