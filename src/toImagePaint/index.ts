@@ -10,6 +10,7 @@ function toImagePaint(
 ): ImagePaint {
   const image = figma.createImage(bytes);
   return {
+    ...DEFAULT_OPTIONS,
     ...options,
     imageHash: image.hash,
     type: 'IMAGE',
