@@ -12,7 +12,7 @@ Check whether a node is visible. A node is invisible if itself or any of its dir
 ```tsx
 import { isVisible } from 'figx';
 const textNode = figma.createText();
-isVisible(textNode); // =>true
+isVisible(textNode); // => true
 ```
 
 ## API
@@ -23,9 +23,9 @@ const bool = isVisible(node);
 
 ### Params
 
-| Property | Description            | Type     | Default |
-| -------- | ---------------------- | -------- | ------- |
-| node     | The node to be checked | BaseNode | -       |
+| Property | Description            | Type        | Default |
+| -------- | ---------------------- | ----------- | ------- |
+| node     | The node to be checked | `SceneNode` | -       |
 
 ### Result
 

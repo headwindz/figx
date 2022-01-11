@@ -1,3 +1,3 @@
 import isMatched from '../_internal/isMatched';
 
-export default isMatched('visible', false);
+export default isMatched('locked', true);

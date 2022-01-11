@@ -19,9 +19,9 @@ A comprehensive and reliable figma utilities library
 
 ## 📚 Documentation
 
-- [Home](https://figx.vercel.app)
-- [Guide](https://figx.vercel.app/guide)
-- [Utilities](https://figx.vercel.app/utilities)
+- [Home](https://figx.cool)
+- [Guide](https://figx.cool/guide)
+- [Utilities](https://figx.cool/utilities)
 
 ## ✨ Features
 
