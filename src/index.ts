@@ -11,6 +11,8 @@ export { default as isFillableNode } from './isFillableNode';
 // Color
 export { default as toRgb } from './toRgb';
 export { default as toHsl } from './toHsl';
+export { default as toHex } from './toHex';
+export { default as isSameColor } from './isSameColor';
 
 // Paint
 export { default as toSolidPaint } from './toSolidPaint';
