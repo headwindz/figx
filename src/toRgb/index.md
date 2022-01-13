@@ -33,4 +33,4 @@ const result = toRgb(color, colorFormat);
 
 | Property | Description | Type |
 | --- | --- | --- |
-| result | rgb value of the color | `string` \| `array` \| `object` depending on the `colorFormat` argument |
+| result | Rgb value of the color | `string` \| `array` \| `object` depending on the `colorFormat` argument |
