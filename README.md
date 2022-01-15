@@ -63,3 +63,11 @@ $ yarn start
 ```
 
 Open your browser and visit http://127.0.0.1:8000
+
+## 🙏 Credit
+
+Inspired by the following awesome work:
+
+[create-figma-plugin](https://github.com/yuanqing/create-figma-plugin)
+
+[figma-plugin-helpers](https://github.com/figma-plugin-helper-functions/figma-plugin-helpers)
