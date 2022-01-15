@@ -8,8 +8,17 @@ hero:
       link: /guide
     - text: Getting Started
       link: /utilities
-footer: Open-source MIT Licensed | Copyright © 2020-present n0ruSh <br />Powered by [dumi](https://d.umijs.org)
+footer: Open-source MIT Licensed | Copyright © 2020-present n0ruSh <br />
 ---
+
+[![npm-version-img]][npm-link] [![npm-downloads-img]][npm-link] [![license-img]][license-link] [![bundle-size-img]](https://bundlephobia.com/result?p=figx)
+
+[npm-link]: https://www.npmjs.com/package/figx
+[npm-version-img]: https://img.shields.io/npm/v/figx.svg?style=flat
+[npm-downloads-img]: https://img.shields.io/npm/dm/figx.svg?style=flat
+[license-img]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-link]: https://github.com/n0ruSh/figx/blob/main/LICENSE
+[bundle-size-img]: https://img.shields.io/bundlephobia/minzip/figx?cacheSeconds=1800
 
 ## ✨ Features
 
@@ -51,3 +60,11 @@ $ yarn start
 ```
 
 Open your browser and visit http://127.0.0.1:8000
+
+## 🙏 Credit
+
+Inspired by the following awesome work:
+
+[create-figma-plugin](https://github.com/yuanqing/create-figma-plugin)
+
+[figma-plugin-helpers](https://github.com/figma-plugin-helper-functions/figma-plugin-helpers)
