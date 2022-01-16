@@ -5,7 +5,7 @@ nav:
 
 # getSelectedNodes
 
-Get the selected nodes of the current page, filtered with specified predicate.
+Get the selected nodes of the current page, filtered with the specified predicate.
 
 ## Example
 
@@ -14,7 +14,7 @@ import { getSelectedNodes, isFrameNode } from 'figx';
 const theFrameNode = figma.createFrame();
 const theTextNode = figma.createText();
 figma.currentPage.selection = [frame, text];
-getSelectionNodes(isFrameNode); // => theFrameNode
+getSelectedNodes(isFrameNode); // => theFrameNode
 ```
 
 ## API
@@ -25,9 +25,9 @@ const nodes = getSelectedNodes(predicate);
 
 ### Params
 
-| Property  | Description                             | Type                   | Default      |
-| --------- | --------------------------------------- | ---------------------- | ------------ |
-| predicate | Predicator to filter out selected nodes | `SceneNode => boolean` | `() => true` |
+| Property  | Description                                 | Type                   | Default      |
+| --------- | ------------------------------------------- | ---------------------- | ------------ |
+| predicate | Predicate used to filter out selected nodes | `SceneNode => boolean` | `() => true` |
 
 ### Result
 
