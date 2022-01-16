@@ -2,11 +2,11 @@ import Color from 'color';
 
 function toSolidPaint(colorInString: string): SolidPaint {
   const color = Color(colorInString);
-  const { r, g, b, alpha = 1 } = color.rgb().object();
+  const { r, g, b, alpha = 1 } = color.rgb().unitObject();
   // https://www.figma.com/plugin-docs/api/Paint/#solidpaint
   return {
     type: 'SOLID',
-    color: { r: r / 255, g: g / 255, b: b / 255 },
+    color: { r, g, b },
     opacity: alpha,
   };
 }
