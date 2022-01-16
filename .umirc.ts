@@ -38,7 +38,7 @@ export default defineConfig({
       },
       {
         title: 'Color',
-        children: ['toRgb', 'toHsl', 'toHex', 'isSameColor'],
+        children: ['toRgb', 'toHsl', 'toHex', 'isSameColor', 'getColorContrast'],
       },
       {
         title: 'Paint',
