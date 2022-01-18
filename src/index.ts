@@ -8,12 +8,15 @@ export { default as isFrameNode } from './isFrameNode';
 export { default as isPageNode } from './isPageNode';
 export { default as isVisible } from './isVisible';
 export { default as isFillableNode } from './isFillableNode';
+export { default as getSelectionNodes } from './getSelectedNodes';
+export { default as isLocked } from './isLocked';
 
 // Color
 export { default as toRgb } from './toRgb';
 export { default as toHsl } from './toHsl';
 export { default as toHex } from './toHex';
 export { default as isSameColor } from './isSameColor';
+export { default as getColorContrast } from './getColorContrast';
 
 // Paint
 export { default as toSolidPaint } from './toSolidPaint';
