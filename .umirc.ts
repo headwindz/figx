@@ -42,7 +42,7 @@ export default defineConfig({
       },
       {
         title: 'Paint',
-        children: ['toSolidPaint', 'solidPaintToWebRgb', 'toImagePaint', 'isSamePaint'],
+        children: ['toSolidPaint', 'solidPaintToWebRgb', 'toImagePaint'],
       },
       {
         title: 'Storage',
@@ -50,7 +50,7 @@ export default defineConfig({
       },
       {
         title: 'Others',
-        children: ['getRandomId', 'copyToClipboard', 'copyToClipboardAsync', 'clone'],
+        children: ['getRandomId', 'copyToClipboard', 'copyToClipboardAsync', 'clone', 'isEqual'],
       },
     ],
   },

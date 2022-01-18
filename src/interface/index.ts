@@ -40,3 +40,5 @@ export type IColor =
   | string
   | { r: number; g: number; b: number; alpha?: number }
   | { h: number; s: number; l: number };
+
+export type IObject<T = any> = Record<string, T>;

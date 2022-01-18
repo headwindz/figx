@@ -1,5 +1,6 @@
 // Interfaces
-export { NodeTypeEnum, ColorFormat, ColorModel, IColor } from './interface';
+export { NodeTypeEnum, ColorFormat, ColorModel } from './interface';
+export type { IColor } from './interface';
 
 // Node
 export { default as isTextNode } from './isTextNode';
@@ -25,5 +26,6 @@ export { default as setPluginData } from './setPluginData';
 
 // Others
 export { default as getRandomId } from './getRandomId';
+export { default as isEqual } from './isEqual';
 export { default as copyToClipboard } from './copyToClipboard';
 export { default as copyToClipboardAsync } from './copyToClipboardAsync';
