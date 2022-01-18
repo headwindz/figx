@@ -1,9 +1,11 @@
 import isPageNode from '../isPageNode';
 
-export default function isMatched(propName: keyof SceneNode, matchedResult: boolean) {
+type Pred = (node: SceneNode) => boolean;
+
+function hasMatch(pred: Pred, matchedResult: boolean) {
   return (node: SceneNode) => {
     do {
-      if (node[propName] === matchedResult) {
+      if (pred(node)) {
         return matchedResult;
       }
       node = node.parent as SceneNode;
@@ -11,3 +13,5 @@ export default function isMatched(propName: keyof SceneNode, matchedResult: bool
     return !matchedResult;
   };
 }
+
+export default hasMatch;

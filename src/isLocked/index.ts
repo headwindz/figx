@@ -1,3 +1,3 @@
-import isMatched from '../_internal/isMatched';
+import hasMatch from '../_internal/hasMatch';
 
-export default isMatched('locked', true);
+export default hasMatch((node) => node.locked, true);

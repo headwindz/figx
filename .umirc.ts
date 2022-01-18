@@ -34,6 +34,7 @@ export default defineConfig({
           'isFillableNode',
           'isLocked',
           'getSelectedNodes',
+          'isWithinInstance',
         ],
       },
       {
