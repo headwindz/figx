@@ -28,6 +28,8 @@ export enum ColorFormat {
   STRING = 'string',
   ARRAY = 'array',
   OBJECT = 'object',
+  UNIT_ARRAY = 'unitArray',
+  UNIT_OBJECT = 'unitObject',
 }
 
 export enum ColorModel {

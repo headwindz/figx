@@ -18,6 +18,12 @@ describe('toRgb', () => {
     expect(toRgb(hsl, ColorFormat.ARRAY)).toEqual([255, 0, 0]);
   });
 
+  it('should work for rgb unit array', () => {
+    expect(toRgb(hex, ColorFormat.UNIT_ARRAY)).toEqual([1, 0, 0]);
+    expect(toRgb(rgba, ColorFormat.UNIT_ARRAY)).toEqual([1, 0, 0, 0.3]);
+    expect(toRgb(hsl, ColorFormat.UNIT_ARRAY)).toEqual([1, 0, 0]);
+  });
+
   it('should work for rgb object', () => {
     expect(toRgb(hex, ColorFormat.OBJECT)).toEqual({
       r: 255,
@@ -32,6 +38,25 @@ describe('toRgb', () => {
     });
     expect(toRgb(hsl, ColorFormat.OBJECT)).toEqual({
       r: 255,
+      g: 0,
+      b: 0,
+    });
+  });
+
+  it('should work for rgb unit object', () => {
+    expect(toRgb(hex, ColorFormat.UNIT_OBJECT)).toEqual({
+      r: 1,
+      g: 0,
+      b: 0,
+    });
+    expect(toRgb(rgba, ColorFormat.UNIT_OBJECT)).toEqual({
+      r: 1,
+      g: 0,
+      b: 0,
+      alpha: 0.3,
+    });
+    expect(toRgb(hsl, ColorFormat.UNIT_OBJECT)).toEqual({
+      r: 1,
       g: 0,
       b: 0,
     });
