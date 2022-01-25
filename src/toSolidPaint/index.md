@@ -17,6 +17,8 @@ import { toSolidPaint } from 'figx';
 toSolidPaint('#008080');
 // { type: 'SOLID',  color: { r: 0, g: 128 / 255, b: 128 / 255 }, opacity: 0.1 }
 toSolidPaint('rgb(0, 128, 128, 0.1)');
+// { type: 'SOLID',  color: { r: 0, g: 128 / 255, b: 128 / 255 }, opacity: 0.1 }
+toSolidPaint('rgb(0, 128, 128)', 0.1));
 ```
 
 ## API
@@ -30,6 +32,7 @@ const paint = toSolidPaint(color);
 | Property | Description     | Type   | Default |
 | -------- | --------------- | ------ | ------- |
 | color    | Color in string | string | -       |
+| opacity  | Opacity         | number | -       |
 
 ### Result
 

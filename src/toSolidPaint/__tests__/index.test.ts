@@ -27,4 +27,16 @@ describe('toSolidPaint', () => {
       opacity: 0.1,
     });
   });
+
+  it('should work for opacity', () => {
+    expect(toSolidPaint(rgb, 0.2)).toEqual({
+      type: 'SOLID',
+      color: {
+        r: 0,
+        g: 128 / 255,
+        b: 128 / 255,
+      },
+      opacity: 0.2,
+    });
+  });
 });
