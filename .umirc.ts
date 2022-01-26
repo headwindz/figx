@@ -53,7 +53,14 @@ export default defineConfig({
       },
       {
         title: 'Others',
-        children: ['getRandomId', 'copyToClipboard', 'copyToClipboardAsync', 'clone', 'isEqual'],
+        children: [
+          'getRandomId',
+          'copyToClipboard',
+          'copyToClipboardAsync',
+          'clone',
+          'isEqual',
+          'getDropPosition',
+        ],
       },
     ],
   },

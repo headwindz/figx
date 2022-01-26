@@ -34,3 +34,4 @@ export { default as isEqual } from './isEqual';
 export { default as clone } from './clone';
 export { default as copyToClipboard } from './copyToClipboard';
 export { default as copyToClipboardAsync } from './copyToClipboardAsync';
+export { default as getDropPosition } from './getDropPosition';
