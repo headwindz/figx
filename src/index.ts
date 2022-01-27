@@ -1,6 +1,6 @@
 // Interfaces
 export { NodeTypeEnum, ColorFormat, ColorModel } from './interface';
-export type { IColor } from './interface';
+export type { IColor, IPosition } from './interface';
 
 // Node
 export { default as isTextNode } from './isTextNode';

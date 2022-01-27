@@ -24,12 +24,12 @@ const result = getDropPosition(dropPositionRelativeToPlugin, offset, windowWidth
 
 | Property | Description | Type | Default |
 | --- | --- | --- | --- |
-| dropPositionRelativeToPlugin | Drop position relative to the plugin, available as `clientX` and `clientY` of the `DragEnd` event | `Position` | - |
-| offset | Offset of the drag point, available as `offsetX` and `offsetY` of the `DragStart` event | `Position` | - |
+| dropPositionRelativeToPlugin | Drop position relative to the plugin, available as `clientX` and `clientY` of the `DragEnd` event | `IPosition` | - |
+| offset | Offset of the drag point, available as `offsetX` and `offsetY` of the `DragStart` event | `IPosition` | - |
 | windowWidth | Window width, available as `window.outerWidth` in plugin UI | `number` | - |
 
 ### Result
 
-| Property | Description                | Type       |
-| -------- | -------------------------- | ---------- |
-| result   | Position of the drop point | `Position` |
+| Property | Description                | Type        |
+| -------- | -------------------------- | ----------- |
+| result   | Position of the drop point | `IPosition` |

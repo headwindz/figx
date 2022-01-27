@@ -44,3 +44,8 @@ export type IColor =
   | { h: number; s: number; l: number };
 
 export type IObject<T = any> = Record<string, T>;
+
+export interface IPosition {
+  x: number;
+  y: number;
+}

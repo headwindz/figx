@@ -1,17 +1,14 @@
-interface Position {
-  x: number;
-  y: number;
-}
+import { IPosition } from '../interface';
 
 const RIGHT_PANEL_WIDTH = 240;
 const TOP_BAR_HEIGHT = 40;
 
 // Credit: https://github.com/jackiecorn/figma-plugin-drag-and-drop/blob/master/code.ts
 export default function getDropPosition(
-  dropPositionRelativeToPlugin: Position,
-  offset: Position,
+  dropPositionRelativeToPlugin: IPosition,
+  offset: IPosition,
   windowWidth: number,
-): Position {
+): IPosition {
   // bounds: the position and size of the visible area of the canvas.
   const { bounds, zoom } = figma.viewport;
   // There are two states of the Figma interface: With or without the UI (toolbar + left and right panes)
