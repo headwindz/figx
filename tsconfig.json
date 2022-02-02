@@ -10,6 +10,6 @@
     "skipLibCheck": true,
     "declaration": true,
     "allowSyntheticDefaultImports": true,
-    "types": ["@figma/plugin-typings", "jest"]
+    "typeRoots": ["./node_modules/@types", "./node_modules/@figma", "./typings"]
   }
 }
