@@ -1,6 +1,6 @@
 # Intro
 
-`figx` is a comprehensive and reliable figma utilities library. In the current React project development process, a set of easy-to-use React Hooks library is indispensable, hope ahooks can be your choice.
+`figx` is a comprehensive and reliable figma utilities library.
 
 ## ✨ Features
 
