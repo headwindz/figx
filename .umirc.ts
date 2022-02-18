@@ -31,6 +31,7 @@ export default defineConfig({
           'isFrameNode',
           'isPageNode',
           'isComponentNode',
+          'isInstanceNode',
           'isVisible',
           'isFillableNode',
           'isLocked',
