@@ -6,6 +6,7 @@ export type { IColor, IPosition } from './interface';
 export { default as isTextNode } from './isTextNode';
 export { default as isFrameNode } from './isFrameNode';
 export { default as isPageNode } from './isPageNode';
+export { default as isComponentNode } from './isComponentNode';
 export { default as isVisible } from './isVisible';
 export { default as isFillableNode } from './isFillableNode';
 export { default as getSelectionNodes } from './getSelectedNodes';
