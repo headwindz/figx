@@ -13,6 +13,7 @@ export { default as isFillableNode } from './isFillableNode';
 export { default as getSelectionNodes } from './getSelectedNodes';
 export { default as isLocked } from './isLocked';
 export { default as isWithinInstance } from './isWithinInstance';
+export { default as getComponentProps } from './getComponentProps';
 
 // Color
 export { default as toRgb } from './toRgb';
