@@ -27,6 +27,7 @@ export { default as toSolidPaint } from './toSolidPaint';
 export { default as solidPaintToWebRgb } from './solidPaintToWebRgb';
 export { default as toImagePaint } from './toImagePaint';
 export { default as isImagePaint } from './isImagePaint';
+export { default as isGradientPaint } from './isGradientPaint';
 
 // Storage
 export { default as getPluginData } from './getPluginData';

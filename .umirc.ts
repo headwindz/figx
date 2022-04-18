@@ -46,7 +46,13 @@ export default defineConfig({
       },
       {
         title: 'Paint',
-        children: ['toSolidPaint', 'solidPaintToWebRgb', 'toImagePaint', 'isImagePaint'],
+        children: [
+          'toSolidPaint',
+          'solidPaintToWebRgb',
+          'toImagePaint',
+          'isImagePaint',
+          'isGradientPaint',
+        ],
       },
       {
         title: 'Storage',
