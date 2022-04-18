@@ -26,6 +26,7 @@ export { default as getColorContrast } from './getColorContrast';
 export { default as toSolidPaint } from './toSolidPaint';
 export { default as solidPaintToWebRgb } from './solidPaintToWebRgb';
 export { default as toImagePaint } from './toImagePaint';
+export { default as isImagePaint } from './isImagePaint';
 
 // Storage
 export { default as getPluginData } from './getPluginData';
