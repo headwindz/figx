@@ -17,6 +17,7 @@ export { default as toRgb } from './toRgb';
 export { default as toHsl } from './toHsl';
 export { default as toHex } from './toHex';
 export { default as isSameColor } from './isSameColor';
+export { default as isValidColor } from './isValidColor';
 export { default as getColorContrast } from './getColorContrast';
 
 // Paint
