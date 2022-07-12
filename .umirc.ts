@@ -31,6 +31,7 @@ export default defineConfig({
           'isFrameNode',
           'isPageNode',
           'isComponentNode',
+          'isInstanceNode',
           'isVisible',
           'isFillableNode',
           'isLocked',
@@ -45,7 +46,13 @@ export default defineConfig({
       },
       {
         title: 'Paint',
-        children: ['toSolidPaint', 'solidPaintToWebRgb', 'toImagePaint'],
+        children: [
+          'toSolidPaint',
+          'solidPaintToWebRgb',
+          'toImagePaint',
+          'isImagePaint',
+          'isGradientPaint',
+        ],
       },
       {
         title: 'Storage',
@@ -53,7 +60,14 @@ export default defineConfig({
       },
       {
         title: 'Others',
-        children: ['getRandomId', 'copyToClipboard', 'copyToClipboardAsync', 'clone', 'isEqual'],
+        children: [
+          'getRandomId',
+          'copyToClipboard',
+          'copyToClipboardAsync',
+          'clone',
+          'isEqual',
+          'getDropPosition',
+        ],
       },
     ],
   },

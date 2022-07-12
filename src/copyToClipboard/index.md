@@ -7,6 +7,8 @@ nav:
 
 Copy text to clipboard with `document.execCommand`
 
+> Note: `document.execCommand('copy')` doesn't work in figma browser due to `copy` command is disabled. `window.copy` is put in as a workaround for this issue. However, it's only supported in chrome.
+
 ## Example
 
 ```tsx | preview
@@ -36,7 +38,7 @@ export default () => <App />;
 ## API
 
 ```ts
-copyToClipboard(text);
+const isCopied = copyToClipboard(text);
 ```
 
 ### Params
@@ -47,4 +49,6 @@ copyToClipboard(text);
 
 ### Result
 
-`void`
+| Property | Description                             | Type      | Default |
+| -------- | --------------------------------------- | --------- | ------- |
+| isCopied | Whether the text is copied to clipboard | `boolean` | -       |
