@@ -24,6 +24,7 @@
   },
   "module": "./es/index.js",
   "main": "./lib/index.js",
+  "unpkg": "./dist/index.umd.min.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
     "pre-commit": "lint-staged"
@@ -37,6 +38,7 @@
     ]
   },
   "files": [
+    "dist",
     "es",
     "lib",
     "package.json",
