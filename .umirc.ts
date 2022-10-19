@@ -30,6 +30,7 @@ export default defineConfig({
           'isTextNode',
           'isFrameNode',
           'isPageNode',
+          'isEllipsisNode',
           'isComponentNode',
           'isInstanceNode',
           'isVisible',
