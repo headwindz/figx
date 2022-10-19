@@ -9,7 +9,7 @@ function hasMatch(pred: Pred, matchedResult: boolean) {
         return matchedResult;
       }
       node = node.parent as SceneNode;
-    } while (node !== null && !isPageNode(node));
+    } while (node != null && !isPageNode(node));
     return !matchedResult;
   };
 }
