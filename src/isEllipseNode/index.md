@@ -5,7 +5,7 @@ nav:
 
 # isFrameNode
 
-Check whether a node is a ellipse node.
+Check whether a node is an ellipse node.
 
 ## Example
 

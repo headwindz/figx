@@ -5,6 +5,7 @@ export type { IColor, IPosition } from './interface';
 // Node
 export { default as isTextNode } from './isTextNode';
 export { default as isFrameNode } from './isFrameNode';
+export { default as isEllipseNode } from './isEllipseNode';
 export { default as isPageNode } from './isPageNode';
 export { default as isComponentNode } from './isComponentNode';
 export { default as isInstanceNode } from './isInstanceNode';
