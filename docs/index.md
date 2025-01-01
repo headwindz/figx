@@ -8,7 +8,7 @@ hero:
       link: /guide
     - text: Getting Started
       link: /utilities
-footer: Open-source MIT Licensed | Copyright © 2020-present n0ruSh <br />
+footer: Open-source MIT Licensed | Copyright © 2020-present headwindz <br />
 ---
 
 [![npm-version-img]][npm-link] [![npm-downloads-img]][npm-link] [![license-img]][license-link] [![bundle-size-img]](https://bundlephobia.com/result?p=figx)
@@ -17,7 +17,7 @@ footer: Open-source MIT Licensed | Copyright © 2020-present n0ruSh <br />
 [npm-version-img]: https://img.shields.io/npm/v/figx.svg?style=flat
 [npm-downloads-img]: https://img.shields.io/npm/dm/figx.svg?style=flat
 [license-img]: https://img.shields.io/badge/license-MIT-blue.svg
-[license-link]: https://github.com/n0ruSh/figx/blob/main/LICENSE
+[license-link]: https://github.com/headwindz/figx/blob/main/LICENSE
 [bundle-size-img]: https://img.shields.io/bundlephobia/minzip/figx?cacheSeconds=1800
 
 ## ✨ Features
@@ -49,12 +49,12 @@ toRgb('hsl(0, 100%, 50%)', ColorFormat.OBJECT); // => { r: 255, g: 0, b: 0 }
 - [Runkit][runkit-link]
 
 [sandbox-link]: https://codesandbox.io/s/demo-316l9?file=/src/index.js
-[runkit-link]: https://runkit.com/n0rush/61d919edcdc69d0008742627
+[runkit-link]: https://runkit.com/headwindz/61d919edcdc69d0008742627
 
 ## 🤝 Contributing
 
 ```bash
-$ git clone git@github.com:n0ruSh/figx.git
+$ git clone git@github.com:headwindz/figx.git
 $ yarn
 $ yarn start
 ```

@@ -31,4 +31,4 @@ toRgb('hsl(0, 100%, 50%)', ColorFormat.OBJECT); // => { r: 255, g: 0, b: 0 }
 - [Runkit][runkit-link]
 
 [sandbox-link]: https://codesandbox.io/s/demo-316l9?file=/src/index.js
-[runkit-link]: https://runkit.com/n0rush/61d919edcdc69d0008742627
+[runkit-link]: https://runkit.com/headwindz/61d919edcdc69d0008742627
