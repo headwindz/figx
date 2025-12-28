@@ -9,7 +9,7 @@
     "figma api"
   ],
   "scripts": {
-    "start": " NODE_OPTIONS=--openssl-legacy-provider dumi dev",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider dumi dev",
     "docs:build": "NODE_OPTIONS=--openssl-legacy-provider dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
     "build": "father-build",

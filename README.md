@@ -35,6 +35,8 @@ A comprehensive and reliable figma utilities library
 $ npm install figx --save
 # or
 $ yarn add figx
+# or
+$ pnpm add figx
 ```
 
 ## 🔨 Usage

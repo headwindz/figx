@@ -32,6 +32,8 @@ footer: Open-source MIT Licensed | Copyright © 2020-present headwindz <br />
 $ npm install figx --save
 # or
 $ yarn add figx
+# or
+$ pnpm add figx
 ```
 
 ## 🔨 Usage
@@ -43,20 +45,12 @@ toRgb({ r: 255, g: 0, b: 0 }, ColorFormat.ARRAY); // => [255, 0, 0]
 toRgb('hsl(0, 100%, 50%)', ColorFormat.OBJECT); // => { r: 255, g: 0, b: 0 }
 ```
 
-## 💻 Demos
-
-- [Sandbox][sandbox-link]
-- [Runkit][runkit-link]
-
-[sandbox-link]: https://codesandbox.io/s/demo-316l9?file=/src/index.js
-[runkit-link]: https://runkit.com/headwindz/61d919edcdc69d0008742627
-
 ## 🤝 Contributing
 
 ```bash
 $ git clone git@github.com:headwindz/figx.git
-$ yarn
-$ yarn start
+$ pnpm install
+$ pnpm run start
 ```
 
 Open your browser and visit http://127.0.0.1:8000
