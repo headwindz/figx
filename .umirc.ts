@@ -2,8 +2,8 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   title: 'figx',
-  favicon: '/static/figx.png',
-  logo: '/static/figx.png',
+  favicon: 'figx.png',
+  logo: 'figx.png',
   outputPath: 'docs-dist',
   mode: 'site',
   // more config: https://d.umijs.org/config
