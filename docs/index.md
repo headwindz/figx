@@ -29,7 +29,7 @@ footer: Open-source MIT Licensed | Copyright © 2020-present headwindz <br />
 ## 📦 Install
 
 ```bash
-$ npm install figx --save
+$ npm install figx
 # or
 $ yarn add figx
 # or

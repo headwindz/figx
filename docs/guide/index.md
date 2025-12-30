@@ -11,7 +11,7 @@
 ## 📦 Install
 
 ```bash
-$ npm install figx --save
+$ npm install figx
 # or
 $ yarn add figx
 # or

@@ -19,9 +19,9 @@ A comprehensive and reliable figma utilities library
 
 ## 📚 Documentation
 
-- [Home](https://figx.vercel.app)
-- [Guide](https://figx.vercel.app/guide)
-- [Utilities](https://figx.vercel.app/utilities)
+- [Home](https://figx.headwindz.me)
+- [Guide](https://figx.headwindz.me/guide)
+- [Utilities](https://figx.headwindz.me/utilities)
 
 ## ✨ Features
 
@@ -32,7 +32,7 @@ A comprehensive and reliable figma utilities library
 ## 📦 Install
 
 ```bash
-$ npm install figx --save
+$ npm install figx
 # or
 $ yarn add figx
 # or
@@ -52,8 +52,8 @@ toRgb('hsl(0, 100%, 50%)', ColorFormat.OBJECT); // => { r: 255, g: 0, b: 0 }
 
 ```bash
 $ git clone git@github.com:headwindz/figx.git
-$ yarn
-$ yarn start
+$ pnpm i
+$ pnpm run start
 ```
 
 Open your browser and visit http://127.0.0.1:8000
