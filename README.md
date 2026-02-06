@@ -17,6 +17,8 @@ A comprehensive and reliable figma utilities library
 
 </div>
 
+![figx](https://github.com/user-attachments/assets/0031653d-4603-41dd-ba89-896820b12cbb)
+
 ## 📚 Documentation
 
 - [Home](https://figx.headwindz.me)
